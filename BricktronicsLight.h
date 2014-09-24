@@ -28,8 +28,15 @@
 #ifndef BRICKTRONICSLIGHT_H
 #define BRICKTRONICSLIGHT_H
 
-// Header files
+// Arduino header files
 #include <stdint.h>
+#if ARDUINO >= 100
+#include "Arduino.h"
+#else
+#include "WProgram.h"
+#endif
+
+// Library header files
 #include "utility/BricktronicsSettings.h"
 
 // The light sensor is an analog sensor, and outputs a voltage inversely-
