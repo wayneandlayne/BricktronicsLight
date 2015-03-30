@@ -3,7 +3,7 @@
     Provides a compact way to transfer motor and sensor settings
     from the Bricktronics class to the motor and sensor class constructors.
 
-    Copyright (C) 2014 Adam Wolf, Matthew Beckler, John Baichtal
+    Copyright (C) 2015 Adam Wolf, Matthew Beckler, John Baichtal
 
     This program is free software; you can redistribute it and/or
     modify it under the terms of the GNU General Public License

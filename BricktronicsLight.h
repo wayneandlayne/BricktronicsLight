@@ -1,7 +1,7 @@
 /*
     Bricktronics library for LEGO NXT Light sensors.
     
-    Copyright (C) 2014 Adam Wolf, Matthew Beckler, John Baichtal
+    Copyright (C) 2015 Adam Wolf, Matthew Beckler, John Baichtal
 
     This program is free software; you can redistribute it and/or
     modify it under the terms of the GNU General Public License

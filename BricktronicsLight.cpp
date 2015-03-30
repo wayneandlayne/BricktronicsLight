@@ -1,7 +1,7 @@
 /*
     Bricktronics library for LEGO NXT Light sensors.
 
-    Copyright (C) 2014 Adam Wolf, Matthew Beckler, John Baichtal
+    Copyright (C) 2015 Adam Wolf, Matthew Beckler, John Baichtal
 
     This program is free software; you can redistribute it and/or
     modify it under the terms of the GNU General Public License
@@ -46,7 +46,7 @@ BricktronicsLight::BricktronicsLight(uint8_t inputPin, uint8_t lightPin):
 
 // This is the complicated constructor that allows for overriding the
 // low-level Arduino functions.
-BricktronicsLight::BricktronicsLight(const SensorSettings &settings):
+BricktronicsLight::BricktronicsLight(const BricktronicsSensorSettings &settings):
     _inputPin(settings.ANA),
     _lightPin(settings.DA),
     _floodlightDelayInMs(LIGHT_SENSOR_FLOODLIGHT_DELAY_VALUE_IN_MS),
