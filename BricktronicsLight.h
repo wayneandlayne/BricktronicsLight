@@ -21,6 +21,9 @@
     code, please support W&L and open-source hardware by purchasing products
     from https://store.wayneandlayne.com/ - Thanks!
 
+    Many thanks to Filipe Janela and Francisco Janela for writing
+    the intial version of this code. Those guys rock.
+
     Wayne and Layne, LLC and our products are not connected to or endorsed by the LEGO Group.
     LEGO, Mindstorms, and NXT are trademarks of the LEGO Group.
 */
