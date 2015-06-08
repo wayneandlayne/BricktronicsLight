@@ -33,7 +33,7 @@
 //#include <Wire.h>
 //#include <Adafruit_MCP23017.h>
 //#include <BricktronicsShield.h>
-//BricktronicsLight ls = BricktronicsLight(BricktronicsShield::SENSOR_1);
+//BricktronicsLight ls(BricktronicsShield::SENSOR_1);
 
 // 2. With a Bricktronics Megashield - Include these lines but do not
 // call BricktronicsShield::begin() in the setup() function below.
@@ -41,7 +41,7 @@
 // Use the jumpers to connect pins 1-2 and 4-5 for the light sensor.
 //
 //#include <BricktronicsMegashield.h>
-//BricktronicsLight ls = BricktronicsLight(BricktronicsMegashield::SENSOR_4);
+//BricktronicsLight ls(BricktronicsMegashield::SENSOR_4);
 
 // 3. With a Bricktronics Breakout board - No additional includes needed, just
 // update the pin assignments in the BricktronicsLight constructor below.
@@ -50,7 +50,7 @@
 // There is one consideration for pin assignments:
 // A. inputPin needs to be an analog pin
 //
-//BricktronicsLight ls = BricktronicsLight(A0, 12);
+//BricktronicsLight ls(A0, 12);
 
 
 void setup() 
