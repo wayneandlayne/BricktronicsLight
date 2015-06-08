@@ -30,10 +30,10 @@
 // Select the sensor port for the Light sensor (SENSOR_1 through SENSOR_4) below.
 // For ports 3 and 4, use the jumpers to connect pins 1-2 and 4-5.
 //
-//#include <Wire.h>
-//#include <Adafruit_MCP23017.h>
-//#include <BricktronicsShield.h>
-//BricktronicsLight ls(BricktronicsShield::SENSOR_1);
+#include <Wire.h>
+#include <Adafruit_MCP23017.h>
+#include <BricktronicsShield.h>
+BricktronicsLight ls(BricktronicsShield::SENSOR_1);
 
 // 2. With a Bricktronics Megashield - Include these lines but do not
 // call BricktronicsShield::begin() in the setup() function below.
@@ -60,7 +60,7 @@ void setup()
 
   // Only call this if you are using a Bricktronics Shield,
   // otherwise leave it commented-out.
-  //BricktronicsShield::begin();
+  BricktronicsShield::begin();
 
   // Initialize the light sensor connections
   ls.begin();
