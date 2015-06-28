@@ -28,7 +28,7 @@
 // You also need to install the Adafruit MCP23017 library:
 //	https://github.com/adafruit/Adafruit-MCP23017-Arduino-Library
 // Select the sensor port for the Light sensor (SENSOR_1 through SENSOR_4) below.
-// For ports 3 and 4, use the jumpers to connect pins 1-2 and 4-5.
+// For ports 3 and 4, use the jumpers to connect pins 2-3 and 4-5.
 //
 // Config 1 - arduino:avr:uno
 //#include <Wire.h>
@@ -40,7 +40,7 @@
 // 2. With a Bricktronics Megashield - Include these lines but do not
 // call BricktronicsShield::begin() in the setup() function below.
 // Select the sensor port for the light sensor (SENSOR_1 through SENSOR_4) below.
-// Use the jumpers to connect pins 1-2 and 4-5 for the light sensor.
+// Use the jumpers to connect pins 2-3 and 4-5 for the light sensor.
 //
 // Config 2 - arduino:avr:mega:cpu=atmega2560
 //#include <BricktronicsMegashield.h>
