@@ -16,5 +16,7 @@ Place the BricktronicsLight library folder into your `<arduinosketchfolder>/libr
 **If you want to automatically verify all configurations of the library example sketches, you need to download the W&L VerifySketchConfig library so that the symbolic link works:**
 * [VerifySketchConfig](https://github.com/wayneandlayne/VerifySketchConfig/)
 
+Many thanks to Filipe Janela and Francisco Janela for writing the intial version of this code. Those guys rock.
+
 _Wayne and Layne, LLC and our products are not connected to or endorsed by the LEGO Group. LEGO, Mindstorms, and NXT are trademarks of the LEGO Group._
 
