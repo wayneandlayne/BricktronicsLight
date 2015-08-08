@@ -57,7 +57,15 @@
 // 3. With a Bricktronics Breakout board - No additional includes needed, just
 // update the pin assignments in the BricktronicsLight constructor below.
 //
-// The BricktronicsLight() arguments are: inputPin, lightPin
+// Connect these pins on the Bricktronics Breakout board:
+//  Pin 1 - Connect to any analog input pin
+//  Pin 2 - Connect to Ground
+//  Pin 3 - Connect to Ground
+//  Pin 4 - Connect to 5V
+//  Pin 5 - Connect to any digital pin
+//  Pin 6 - No connection
+//
+// The BricktronicsLight() arguments are: inputPin (pin 1), lightPin (pin 5)
 // There is one consideration for pin assignments:
 // A. inputPin needs to be an analog pin
 //
