@@ -28,11 +28,11 @@ BricktronicsLight ls(BricktronicsMegashield::SENSOR_1);
 
 # Connection with [Bricktronics Breakout Board](https://store.wayneandlayne.com/products/bricktronics-breakout-board.html)
 
-* Pin 1 - Connect to any analog input pin (this is inputPin below)
+* Pin 1 - Connect to any analog input pin (this is `inputPin` below)
 * Pin 2 - Connect to Ground
 * Pin 3 - Connect to Ground
 * Pin 4 - Connect to 5V
-* Pin 5 - Connect to any digital pin (this is lightPin below)
+* Pin 5 - Connect to any digital pin (this is `lightPin` below)
 * Pin 6 - No connection
 
 Constructor usage for Bricktronics Breakout Board:
