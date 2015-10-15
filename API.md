@@ -73,7 +73,7 @@ void loop()
 }
 ```
 
-# Constructors and begin()
+# Constructors and `begin()`
 
 #### `BricktronicsLight(uint8_t inputPin, uint8_t lightPin)`
 
