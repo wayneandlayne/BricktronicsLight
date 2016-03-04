@@ -14,7 +14,7 @@
 // that the light doesn't help much in distinguishing between light and dark
 // surfaces, but your mileage may vary, so give it a try.
 //
-// Written in 2015 by Matthew Beckler and Adam Wolf for Wayne and Layne, LLC
+// Written in 2016 by Matthew Beckler and Adam Wolf for Wayne and Layne, LLC
 // To the extent possible under law, the author(s) have dedicated all
 //   copyright and related and neighboring rights to this software to the
 //   public domain worldwide. This software is distributed without any warranty.
@@ -29,6 +29,8 @@
 // This example can be run in three different ways. Pick one, and un-comment
 // the code lines corresponding to your chosen method. Comment-out the lines
 // for the other methods that you aren't using.
+// This sketch includes configuration blocks that are used by the W&L code
+// build and test system, feel free to ignore the "// Config" lines in the code below.
 
 // 1. With a Bricktronics Shield - Include these lines and be sure to
 // call BricktronicsShield::begin() in the setup() function below.
@@ -37,7 +39,7 @@
 // Select the sensor port for the Light sensor (SENSOR_1 through SENSOR_4) below.
 // For ports 3 and 4, use the jumpers to connect pins 2-3 and 4-5.
 //
-// Config 1 - arduino:avr:uno
+// Config 1 - WNLCFGBS
 //#include <Wire.h>
 //#include <Adafruit_MCP23017.h>
 //#include <BricktronicsShield.h>
@@ -49,7 +51,7 @@
 // Select the sensor port for the light sensor (SENSOR_1 through SENSOR_4) below.
 // Use the jumpers to connect pins 2-3 and 4-5 for the light sensor.
 //
-// Config 2 - arduino:avr:mega:cpu=atmega2560
+// Config 2 - WNLCFGBMS
 //#include <BricktronicsMegashield.h>
 //BricktronicsLight ls(BricktronicsMegashield::SENSOR_4);
 // Config end
@@ -69,7 +71,7 @@
 // There is one consideration for pin assignments:
 // A. inputPin needs to be an analog pin
 //
-// Config 3 - arduino:avr:uno
+// Config 3 - WNLCFGNS
 //BricktronicsLight ls(A0, 12);
 // Config end
 
@@ -81,7 +83,7 @@ void setup()
 
   // Only call this if you are using a Bricktronics Shield,
   // otherwise leave it commented-out.
-  // Config 1 - arduino:avr:uno
+  // Config 1 - WNLCFGBS
   //BricktronicsShield::begin();
   // Config end
 
