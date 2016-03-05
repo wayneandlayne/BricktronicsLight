@@ -39,7 +39,7 @@
 // Select the sensor port for the Light sensor (SENSOR_1 through SENSOR_4) below.
 // For ports 3 and 4, use the jumpers to connect pins 2-3 and 4-5.
 //
-// Config 1 - WNLCFGBS
+// Config 1 - CFG_WNL_BS
 //#include <Wire.h>
 //#include <Adafruit_MCP23017.h>
 //#include <BricktronicsShield.h>
@@ -51,7 +51,7 @@
 // Select the sensor port for the light sensor (SENSOR_1 through SENSOR_4) below.
 // Use the jumpers to connect pins 2-3 and 4-5 for the light sensor.
 //
-// Config 2 - WNLCFGBMS
+// Config 2 - CFG_WNL_BMS
 //#include <BricktronicsMegashield.h>
 //BricktronicsLight ls(BricktronicsMegashield::SENSOR_4);
 // Config end
@@ -71,7 +71,7 @@
 // There is one consideration for pin assignments:
 // A. inputPin needs to be an analog pin
 //
-// Config 3 - WNLCFGNS
+// Config 3 - CFG_WNL_NS
 //BricktronicsLight ls(A0, 12);
 // Config end
 
@@ -83,7 +83,7 @@ void setup()
 
   // Only call this if you are using a Bricktronics Shield,
   // otherwise leave it commented-out.
-  // Config 1 - WNLCFGBS
+  // Config 1 - CFG_WNL_BS
   //BricktronicsShield::begin();
   // Config end
 
