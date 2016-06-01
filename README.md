@@ -6,9 +6,8 @@ BricktronicsLight
 More details at http://www.wayneandlayne.com/bricktronics/
 
 **To Download**
-Click the "Clone or download" button on the upper-right side of this page below the pink bar, then select "Download ZIP". Rename the uncompressed folder BricktronicsLight. Check that the BricktronicsLight folder contains BricktronicsLight.cpp and BricktronicsLight.h
-
-Place the BricktronicsLight library folder into your `<arduinosketchfolder>/libraries/` folder. You may need to create the libraries subfolder if this is your first installed library. Restart the Arduino IDE.
+* Click the "Clone or download" button on the upper-right side of this page below the pink bar, then select "Download ZIP". Rename the uncompressed folder BricktronicsLight. Check that the BricktronicsLight folder contains BricktronicsLight.cpp and BricktronicsLight.h
+* Place the BricktronicsLight library folder into your `<arduinosketchfolder>/libraries/` folder. You may need to create the libraries subfolder if this is your first installed library. Restart the Arduino IDE.
 
 **API Highlights**
 * `BricktronicsLight(uint8_t inputPin, uint8_t lightPin)` - Constructor
