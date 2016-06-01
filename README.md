@@ -5,7 +5,8 @@ BricktronicsLight
 
 More details at http://www.wayneandlayne.com/bricktronics/
 
-To download. click the "Download ZIP" button on the right side of this page. Rename the uncompressed folder BricktronicsLight. Check that the BricktronicsLight folder contains BricktronicsLight.cpp and BricktronicsLight.h
+**To Download**
+Click the "Clone or download" button on the upper-right side of this page below the pink bar, then select "Download ZIP". Rename the uncompressed folder BricktronicsLight. Check that the BricktronicsLight folder contains BricktronicsLight.cpp and BricktronicsLight.h
 
 Place the BricktronicsLight library folder into your `<arduinosketchfolder>/libraries/` folder. You may need to create the libraries subfolder if this is your first installed library. Restart the Arduino IDE.
 
