@@ -8,8 +8,6 @@ Use the light sensor with any sensor port on the Bricktronics Shield. Use the ju
 
 Constructor usage for Bricktronics Shield
 ```C++
-#include <Wire.h>
-#include <Adafruit_MCP23017.h>
 #include <BricktronicsShield.h>
 #include <BricktronicsLight.h>
 BricktronicsLight ls(BricktronicsShield::SENSOR_1);
